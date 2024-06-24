@@ -4,6 +4,8 @@ import NavHeader from "../Components/NavHeader";
 import { artikelItems } from "../constants";
 import styles from "../style";
 import Footer from "../Components/Footer.jsx";
+import { Link } from "react-router-dom";
+
 
 const Artikel = () => {
   return (
