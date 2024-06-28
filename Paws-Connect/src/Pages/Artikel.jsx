@@ -4,6 +4,7 @@ import NavHeader from "../Components/NavHeader";
 import { artikelItems } from "../constants";
 import styles from "../style";
 import Footer from "../Components/Footer.jsx";
+import { Link } from "react-router-dom";
 
 const Artikel = () => {
   return (
@@ -25,7 +26,7 @@ const Artikel = () => {
               <h3 className="text-lg  font-bold mt-2">{item.title}</h3>
               <p className="text-sm font-light mt-2 mr-48 ">{item.content}</p>
               <div className="flex text-sm font-light font-satoshi-light text-primary items-center mt-4 cursor-pointer">
-                {item.more}
+              <Link to={item.link}>{item.more}</Link>
               </div>
             </div>
           </div>
