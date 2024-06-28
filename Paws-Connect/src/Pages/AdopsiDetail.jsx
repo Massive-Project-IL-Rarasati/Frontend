@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import NavHeader from "../Components/NavHeader";
 import { puppiesItems, shareItems, catDetailItems } from "../constants";
@@ -78,6 +77,25 @@ const AdopsiDetail = () => {
               {cat.description}
             </p>
           </div>
+          <div className="col-span-3 mt-4 w-[830px] h-[523px]">
+          <div className="bg-greyLight p-4">
+            <h1 className="text-xl font-semibold font-Satoshi-Reguler">
+              Proses Adopsi
+            </h1>
+            <p className="text-base font-light font-Satoshi-Light">
+              1. Hubungi kontak yang tertera di halaman ini.
+            </p>
+            <p className="text-base font-light font-Satoshi-Light">
+              2. Isi formulir adopsi yang akan diberikan.
+            </p>
+            <p className="text-base font-light font-Satoshi-Light">
+              3. Tunggu konfirmasi dari pihak kontak yang dihubungi.
+            </p>
+            <p className="text-base font-light font-Satoshi-Light">
+              4. Jika disetujui, Anda dapat menjemput kucing di lokasi yang telah ditentukan.
+            </p>
+          </div>
+        </div>
         </div>
         <div className="col-span-1">
           <h1 className="text-secondary text-xl font-semibold font-Satoshi-Regulerbold">
