@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { logorm } from "../assets";
 import { footerLinks } from "../constants";
 
@@ -27,8 +27,8 @@ const Footer = () => {
                   className={`py-1 font-Satoshi-Light font-light text-base text-secondary hover:text-primary cursor-pointer ${
                     index !== link.links.length - 1 ? "mb-2" : "mb-0"
                   }`}
-                >
-                  {item.name}
+                >              
+                <Link to={item.link}>{item.name}</Link>
                 </li>
               ))}
             </ul>

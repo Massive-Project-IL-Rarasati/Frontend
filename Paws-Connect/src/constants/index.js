@@ -355,7 +355,7 @@ export const footerLinks = [
     links: [
       {
         name: "Beranda",
-        link: "",
+        link: "/",
       },
 
       {
@@ -364,7 +364,7 @@ export const footerLinks = [
       },
       {
         name: "Artikel",
-        link: "",
+        link: "/artikel",
       },
     ],
   },
@@ -374,11 +374,11 @@ export const footerLinks = [
     links: [
       {
         name: "Donasi",
-        link: "",
+        link: "/donasi",
       },
       {
-        name: "Vaksin",
-        link: "",
+        name: "Relawan",
+        link: "/relawan",
       },
       {
         name: "Sterilisasi",
@@ -391,43 +391,12 @@ export const footerLinks = [
     title: "About",
     links: [
       {
-        name: "Diantara cara mengatasi kejenuhan bekerja sendiri baik WFH maupun WFA diantaranya adalah dengan memelihara hewan. Menurut dr. Fadhli Rizal Makarim",
+        name: "Kami percaya setiap kucing layak mendapatkan kehangatan rumah, dan setiap keluarga berhak merasakan kebahagiaan dari sahabat berbulu.",
       },
     ],
   },
 ];
 
-export const commentItems = [
-  {
-    author: "Rina",
-    content: "Halo, Apakah Anda memiliki pengalaman dalam mengadopsi kucing?",
-    timestamp: "2 hours ago",
-  },
-  {
-    author: "Reni",
-    content:
-      "Saya punya pengalaman mengadopsi kucing yang menyenangkan. Memberi rumah bagi kucing yang butuh sungguh memuaskan dan membuat saya bahagia.",
-    timestamp: "1 hour ago",
-  },
-  {
-    author: "Roni",
-    content:
-      "Apa yang membuat Anda memilih adopsi sebagai opsi untuk mendapatkan kucing?",
-    timestamp: "30 minutes ago",
-  },
-  {
-    author: "Rini",
-    content:
-      "Saya ingin mencoba adopsi kucing. Apa yang membuat Anda memilih adopsi sebagai opsi untuk mendapatkan kucing?",
-    timestamp: "10 minutes ago",
-  },
-  {
-    author: "Rini",
-    content: "Apakah kamu suka kucing ini?",
-
-    timestamp: "10 minutes ago",
-  },
-];
 
 export const shareItems = [
   { name: "Share", icon: FaShareAlt, link: null },
