@@ -377,8 +377,8 @@ export const footerLinks = [
         link: "/donasi",
       },
       {
-        name: "Relawan",
-        link: "/relawan",
+        name: "Sukarelawan",
+        link: "/sukarelawan",
       },
       {
         name: "Sterilisasi",
