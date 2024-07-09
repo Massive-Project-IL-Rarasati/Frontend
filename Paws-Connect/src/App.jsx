@@ -6,7 +6,7 @@ import AdopsiDetail from "./Pages/AdopsiDetail";
 import AdopsiForm from "./Pages/AdopsiForm";
 import Artikel from "./Pages/Artikel";
 import Donasi from "./Pages/Donasi";
-import Relawan from "./Pages/Relawan";
+import Sukarelawan from "./Pages/Sukarelawan";
 import Kontak from "./Pages/Kontak";
 import Komunitas from "./Pages/Komunitas";
 import Comment from "./Components/Comment";
@@ -36,7 +36,7 @@ const App = () => {
             <Route path="/tambah-adopsi" element={<AdopsiForm />} />
             <Route path="/artikel" element={<Artikel />} />
             <Route path="/donasi" element={<Donasi />} />
-            <Route path="/relawan" element={<Relawan />} />
+            <Route path="/sukarelawan" element={<Sukarelawan />} />
             <Route path="/kontak" element={<Kontak />} />
             <Route path="/komunitas" element={<Komunitas />} />
             <Route path="/id:comment" element={<Comment />} />
