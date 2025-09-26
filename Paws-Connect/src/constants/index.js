@@ -45,6 +45,25 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
+export const hero = [
+  { 
+    id : 1, 
+    title : "Anggota Bulu", 
+    content : "Dapatkan Anggota Keluarga Bulu Baru Anda Hari Ini"
+  },
+  {
+    id : 2, 
+    title : "Bagian Rumah", 
+    content : "Para Kucing yang Menunggu untuk Menjadi Bagian dari Rumah Anda!"
+  },
+  {
+    id : 3, 
+    title : "Temukan Sahabat", 
+    content : "Temukan Sahabat Sejati Anda Hari Ini di Website Adopsi Kucing Kami"
+  },
+
+];
+
 export const puppiesItems = [
   {
     id: 1,
