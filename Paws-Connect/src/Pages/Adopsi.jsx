@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { puppiesItems } from "../constants";
 import styles from "../style";
-import Footer from "../Components/Footer.jsx";
-import NavHeader from "../Components/NavHeader.jsx";
+import Footer from "../components/Footer.jsx";
+import NavHeader from "../components/NavHeader.jsx";
 
 const Adopsi = () => {
   return (

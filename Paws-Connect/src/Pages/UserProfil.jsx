@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Setting from "../Components/Setting.jsx";
-import Loading from "../Components/Loading.jsx";
+import Setting from "../components/Setting.jsx";
+import Loading from "../components/Loading.jsx";
 
 const UserProfile = () => {
   const [user, setUser] = useState(null);

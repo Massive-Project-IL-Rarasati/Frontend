@@ -7,10 +7,10 @@ import {
   FaPlusCircle,
   FaRegPlusSquare,
 } from "react-icons/fa";
-import NavHeader from "../Components/NavHeader";
-import Footer from "../Components/Footer";
+import NavHeader from "../components/NavHeader";
+import Footer from "../components/Footer";
 import axios from "axios";
-import Post from "../Components/Post";
+import Post from "../components/Post";
 
 const Komunitas = () => {
   const [posts, setPosts] = useState([]);
