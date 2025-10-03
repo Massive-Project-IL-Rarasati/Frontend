@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { logobaru } from "../assets/index.js";
-import { AuthContext } from "../Auth/AuthContext";
+import { AuthContext } from "../auth/AuthContext";
 
 const Login = () => {
   const [error, setError] = useState("");

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { navigationLinks} from "../constants";
 import { logobaru } from "../assets";
 import UserMenu from "./UserMenu";
-import { AuthContext } from "../Auth/AuthContext";
+import { AuthContext } from "../auth/AuthContext";
 
 const Navbar = () => {
   const { isLoggedIn } = useContext(AuthContext);

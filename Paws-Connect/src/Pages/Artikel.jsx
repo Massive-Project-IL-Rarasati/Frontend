@@ -1,9 +1,9 @@
 import React from "react";
-import ArtikelItem from "../Components/ArtikelItem";
-import NavHeader from "../Components/NavHeader";
+import ArtikelItem from "../components/ArtikelItem";
+import NavHeader from "../components/NavHeader";
 import { artikelItems } from "../constants";
 import styles from "../style";
-import Footer from "../Components/Footer.jsx";
+import Footer from "../components/Footer.jsx";
 import { Link } from "react-router-dom";
 
 
