@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
-import MapForm from "../Components/MapForm";
-import MapPicker from "../Components/MapPicker";
+import MapForm from "../components/MapForm";
+import MapPicker from "../components/MapPicker";
 const AdopsiForm = () => {
   const {
     register,

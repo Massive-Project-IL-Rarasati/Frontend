@@ -4,6 +4,8 @@ import { catHome1, catHome2, ellipse } from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
+
+
 const Hero = () => {
   return (
     <>

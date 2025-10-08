@@ -1,22 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Beranda from "./Pages/Beranda";
-import Adopsi from "./Pages/Adopsi";
-import AdopsiDetail from "./Pages/AdopsiDetail";
-import AdopsiForm from "./Pages/AdopsiForm";
-import Artikel from "./Pages/Artikel";
-import Donasi from "./Pages/Donasi";
-import Sukarelawan from "./Pages/Sukarelawan";
-import Kontak from "./Pages/Kontak";
-import Komunitas from "./Pages/Komunitas";
-import Comment from "./Components/Comment";
-import Login from "./Auth/Login";
-import Register from "./Auth/Register";
-import UserProfil from "./Pages/UserProfil";
-import PrivateRoutes from "./Components/PrivateRoutes";
-import PublicRoutes from "./Components/PublicRoutes";
-import { AuthProvider } from "./Auth/AuthContext";
-import Navbar from "./Components/Navbar";
+import Beranda from "./pages/Beranda";
+import Adopsi from "./pages/Adopsi";
+import AdopsiDetail from "./pages/AdopsiDetail";
+import AdopsiForm from "./pages/AdopsiForm";
+import Artikel from "./pages/Artikel";
+import Donasi from "./pages/Donasi";
+import Sukarelawan from "./pages/Sukarelawan";
+import Kontak from "./pages/Kontak";
+import Komunitas from "./pages/Komunitas";
+import Comment from "./components/Comment";
+import Login from "./auth/Login";
+import Register from "./auth/Register";
+import UserProfil from "./pages/UserProfil";
+import PrivateRoutes from "./components/PrivateRoutes";
+import PublicRoutes from "./components/PublicRoutes";
+import { AuthProvider } from "./auth/AuthContext";
+import Navbar from "./components/Navbar";
+
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import NavHeader from "../Components/NavHeader";
-import Footer from "../Components/Footer";
+import NavHeader from "../components/NavHeader";
+import Footer from "../components/Footer";
 
 const Donasi = () => {
   return (

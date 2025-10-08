@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import NavHeader from "../Components/NavHeader";
+import NavHeader from "../components/NavHeader";
 import { puppiesItems, shareItems, catDetailItems } from "../constants";
-import DetailKucing from "../Components/DetailKucing";
-import Footer from "../Components/Footer";
-import MapComponent from "../Components/MapComponent";
+import DetailKucing from "../components/DetailKucing";
+import Footer from "../components/Footer";
+import MapComponent from "../components/MapComponent";
 
 const AdopsiDetail = () => {
   const { id } = useParams();

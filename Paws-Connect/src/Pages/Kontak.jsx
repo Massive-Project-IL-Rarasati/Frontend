@@ -1,8 +1,8 @@
 import React from "react";
-import NavHeader from "../Components/NavHeader";
+import NavHeader from "../components/NavHeader";
 import { kontak, map, call, mail } from "../assets";
-import Artikel from "../Components/Artikel";
-import Footer from "../Components/Footer.jsx";
+import Artikel from "../components/Artikel";
+import Footer from "../components/Footer.jsx";
 
 const Kontak = () => {
   return (
