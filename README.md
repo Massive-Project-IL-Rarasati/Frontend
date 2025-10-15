@@ -16,6 +16,7 @@ Paw Connect is a frontend web application designed for cat lovers! This project 
 # Step-by-step instructions to set up your project locally:
 git clone https://github.com/brilliswift/Frontend-PawConnect.git
 cd Frontend-PawConnect
+cd Paws-Connect
 npm install
 ```
 
