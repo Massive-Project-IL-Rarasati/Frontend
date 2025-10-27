@@ -12,7 +12,7 @@ const DetailKucing = ({ details }) => {
     { label: "Gender", value: details.gender },
     { label: "Berat", value: details.weight },
     { label: "Tanggal Lahir", value: details.born },
-    { label: "Vaksinasi", value: details.vacsinated },
+    { label: "Vaksinasi", value: details.vaccinated },
     { label: "Kepribadian", value: details.personality },
     { label: "Kontak WA", value: details.phoneNumber },
   ];
