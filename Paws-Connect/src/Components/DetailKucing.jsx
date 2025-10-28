@@ -1,8 +1,12 @@
 import React from "react";
 
-const DetailKucing = ({ details }) => {
+const DetailKucing = ({ details, isLoading }) => {
+  if (isLoading) {
+    return <div className={styles.loadingContainer}>Memuat detail...</div>;
+  }
+
   if (!details) {
-    return <div>Detail not available</div>;
+    return <div className={styles.errorContainer}>Detail tidak tersedia</div>;
   }
 
   const detailItems = [
@@ -12,7 +16,7 @@ const DetailKucing = ({ details }) => {
     { label: "Gender", value: details.gender },
     { label: "Berat", value: details.weight },
     { label: "Tanggal Lahir", value: details.born },
-    { label: "Vaksinasi", value: details.vacsinated },
+    { label: "Vaksinasi", value: details.vaccinated },
     { label: "Kepribadian", value: details.personality },
     { label: "Kontak WA", value: details.phoneNumber },
   ];
