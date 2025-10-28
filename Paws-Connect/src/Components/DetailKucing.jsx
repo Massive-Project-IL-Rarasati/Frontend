@@ -1,8 +1,12 @@
 import React from "react";
 
-const DetailKucing = ({ details }) => {
+const DetailKucing = ({ details, isLoading }) => {
+  if (isLoading) {
+    return <div className={styles.loadingContainer}>Memuat detail...</div>;
+  }
+
   if (!details) {
-    return <div>Detail not available</div>;
+    return <div className={styles.errorContainer}>Detail tidak tersedia</div>;
   }
 
   const detailItems = [
